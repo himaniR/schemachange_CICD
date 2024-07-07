@@ -35,4 +35,4 @@ jobs:
           echo "step 1: Installing schemachange"
           pip install schemachange
           echo "step 2: Running schemachange"
-          schemachange -f $GITHUB_WORKSPACE/dbscripts -a RN92075 -u SUNOBELLA -r ACCOUNTADMIN -w COMPUTE_WH -d METADATA -c METADATA.SCHEMACHANGE.CHANGE_HISTORY --create-change-history-table
+          schemachange -f $GITHUB_WORKSPACE/dbscripts -a KV58219 -u SUNOBELLA -r ACCOUNTADMIN -w COMPUTE_WH -d METADATA -c METADATA.SCHEMACHANGE.CHANGE_HISTORY --create-change-history-table
